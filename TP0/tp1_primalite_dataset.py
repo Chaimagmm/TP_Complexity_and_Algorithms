@@ -1,7 +1,7 @@
 # tp1_primalite_dataset.py
 
 import random
-import sympy
+#import sympy
 
 def save_list_to_file(numbers, filename):
     """Sauvegarde une liste de nombres dans un fichier texte."""
@@ -97,7 +97,7 @@ if __name__ == "__main__":
 # =======================
 
     test3_primes = []  # on stockera tous les nombres premiers ici
-    digits_list = [3, 6, 9, 12]  # tailles demandées
+    digits_list = [3,6,9,12]  # tailles demandées
 
     for digits in digits_list:
         start = 10 ** (digits - 1)
@@ -123,4 +123,4 @@ if __name__ == "__main__":
         for p in test3_primes:
             f.write(str(p) + "\n")
 
-    print("Fichier Test-3.txt créé avec succès !")
+    print("Fichier Test-3).txt créé avec succès !")
